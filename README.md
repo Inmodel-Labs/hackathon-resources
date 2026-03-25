@@ -1,64 +1,51 @@
-# 🚀 Hackathon 2026 — Preparation Guide
+# 🚀 AI Hackathon 2026: Official Resources
 
-Welcome to the **Hackathon 2026** resources repository! This is a **10-day hackathon** — you have time to build something real and polished.
-
-We focus on **real-world AI systems**, **system design**, and **practical APIs**.
+Welcome to the **AI Hackathon 2026**! This repository is your central hub for learning the core concepts needed to build production-grade AI applications.
 
 ---
 
-## 📅 10-Day Preparation & Build Timeline
+## 🚀 Start Here (Roadmap)
 
-| Day | Focus | Goal |
-|-----|-------|------|
-| **Day 1** | Setup + Core Concepts | Read LLM Basics, APIs, set up Python + GitHub |
-| **Day 2** | Track Research | Deep dive into your chosen track resources |
-| **Day 3** | Practice Labs | Complete Lab 01–02 (API Fetcher, LLM JSON) |
-| **Day 4** | Practice Labs | Complete Lab 03–05 (TOON, Vision, RAG) |
-| **Day 5** | Starter Kit + Prototype | Run your track's starter kit, define your project idea |
-| **Day 6** | Core Build | Implement the main feature / AI logic |
-| **Day 7** | Core Build | Connect APIs, integrate data pipeline |
-| **Day 8** | Integration + Testing | End-to-end testing, fix bugs, add output examples |
-| **Day 9** | Polish + Demo | Record demo, write README, fill architecture.md |
-| **Day 10** | Submit | Final push to GitHub, verify demo works, submit link |
+To go from zero to a winning prototype, follow this flow:
+
+1.  **Learn Core Concepts**: Read through the [Core Modules](./core/) (LLMs, APIs, RAG, Fine-Tuning).
+2.  **Practice via Labs**: Fork the [**Labs Repo**](https://github.com/Inmodel-Labs/labs) and complete the auto-graded exercises to build muscle memory.
+3.  **Explore Starter Kits**: Look at our [**Starter Kits**](https://github.com/Inmodel-Labs/starter-kits) (Basic to Advanced) to find a base for your project.
+4.  **Join GitHub Classroom**: Access your official team repository (see Discord/Email for the link).
+5.  **Build & Submit**: Follow the [**Submission Template**](https://github.com/Inmodel-Labs/submission-template) to prepare your final project.
 
 ---
 
-## 📖 Resources Navigation
+## 📚 Learning Tracks
 
-### 1. Core Concepts (Days 1–2)
-Master these before building:
-- [LLM Basics](./core/llm-basics.md) - Architectures, Tokenization, and Embeddings.
-- [Prompt Engineering](./core/llm-basics.md#prompt-engineering) - Chain-of-Thought, System Prompts, and Few-shot.
-- [APIs & JSON Handling](./core/apis.md) - REST, Auth, Rate Limiting, and Webhooks.
-- [RAG (Retrieval Augmented Generation)](./core/rag.md) - Chunking, Vector DBs, and Retrieval.
-- [Hugging Face Basics](./core/huggingface.md) - Transformers library and model hub.
-- [Fine-Tuning Overview](./core/fine-tuning.md) - LoRA, QLoRA — when prompting isn't enough.
+Choose your specialization or combine them:
 
-### 🎯 Track-Specific Resources (Day 2)
-Deep dive into your chosen track:
-- [Traffic AI (Computer Vision)](./tracks/traffic-ai.md) - YOLO, OpenCV, and SUMO.
-- [MCP Workflow AI](./tracks/mcp-workflow.md) - Model Context Protocol, GitHub/Jira/Slack APIs.
-- [Hallucination & Quality](./tracks/hallucination.md) - Evaluation metrics and dataset cleaning.
-- [Dataset Quality](./tracks/dataset-quality.md) - Bias, cleaning, and benchmark datasets.
-- [TOON System](./tracks/toon.md) - Token-Oriented Object Notation for efficiency.
-
-### 🛠️ Practice Labs (Days 3–4)
-Auto-graded exercises — push code, get scored instantly:
-- [Mini Practice Projects](./practice/mini-projects.md) - 1-2 hour tasks to sharpen skills.
-- **Labs Repo**: See `labs/` — 5 labs × 20 points each = 100 points total.
+-   [**Traffic AI**](./tracks/traffic-ai.md): Computer vision, edge deployment, vehicle telemetry.
+-   [**MCP Workflow AI**](./tracks/mcp-workflow.md): Tool-use, agents, and local LLM orchestration.
+-   [**Hallucination & Quality**](./tracks/hallucination.md): RAG evaluation, dataset quality, and reliability.
 
 ---
 
-## 🏁 Hackathon Strategy (10-Day Edition)
+## 🆘 Getting Help
 
-1. **Day 1–2 is learning, not building** — don't rush to code. Understand your track deeply first.
-2. **Day 5 is your pivot point** — if the prototype doesn't work by end of Day 5, simplify the scope.
-3. **Keep scope small** — one working feature beats five broken ones. Always.
-4. **Focus on the Demo** — judges want to see it run live. Record a backup video on Day 9.
-5. **Show Real Output** — logs, JSON responses, visual detections, or scores — not just a chat box.
-6. **Use APIs, don't build from scratch** — MCP, GitHub API, HuggingFace — they exist for a reason.
-7. **Don't overbuild UI** — a functional CLI output is better than a broken React app.
-8. **Commit daily** — your git history is part of your submission. Empty repo = instant disqualification.
+-   **Technical Issues**: Check the [Common Errors](#💡-common-errors--fixes) section below.
+-   **Discord**: Join the `#hackathon-help` channel.
+-   **Mentors**: Available Mon-Fri (10 AM - 4 PM) for 1:1 sessions.
+
+## 💡 Common Errors & Fixes
+
+| Error | Fix |
+|-------|-----|
+| `ModuleNotFoundError` | Run `pip install -r requirements.txt` in the kit/lab directory. |
+| `KeyError: 'OPENAI_API_KEY'` | Create a `.env` file based on `.env.example` and add your key. |
+| `Rate Limit Exceeded` | Use a small `time.sleep(1)` between requests or check your quota. |
 
 ---
-> **"Everything happens on GitHub. No exceptions."**
+
+## 📅 Timeline (10 Days)
+
+-   **Days 1-2**: Learning & Labs (Prep phase)
+-   **Day 3**: Team formation & Ideation
+-   **Days 4-8**: Building phase (Starter kits recommended)
+-   **Day 9**: Testing & Optimization
+-   **Day 10**: **Final Submission (Midnight)**
