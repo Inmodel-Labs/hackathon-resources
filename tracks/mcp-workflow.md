@@ -1,8 +1,10 @@
-# 🤖 MCP Workflow AI
+# 🏆 Flagship Track: MCP-Based AI Work Assistant
 
 ## 🪄 Overview
-Building AI agents that can interact with real-world tools via the **Model Context Protocol (MCP)**.
-- **Why it matters**: Moves beyond chatbots to "Action Bots" that can manage tasks in GitHub, Jira, and Slack.
+Build a context-aware AI assistant using **Model Context Protocol (MCP)** that integrates GitHub, Jira, Slack, and calendars to proactively surface actionable work insights.
+
+- **Expected Output**: MCP server with tool integrations + a working demo of contextual assistance.
+- **Why it Matters**: Knowledge workers spend 40% of their time on coordination overhead — fix it.
 
 ## 🛠️ Resources
 - **MCP Protocol**:

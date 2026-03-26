@@ -1,8 +1,10 @@
-# 📊 Dataset Quality Analysis
+# 📊 Dataset Quality Analyzer
 
 ## 🧹 Overview
-Ensuring your AI is trained or evaluated on clean, unbiased, and high-quality data.
-- **Why it matters**: "Garbage in, Garbage out." Better data = better AI performance.
+Implement a tool that evaluates datasets for bias, noise, duplication, and class imbalance, providing actionable reports with NLP support.
+
+- **Expected Output**: CLI or dashboard with quality metrics and visual reports.
+- **Why it Matters**: "Garbage in, garbage out." Dataset quality is the hidden lever of AI performance.
 
 ## 🛠️ Resources
 - **Data Cleaning & Analysis**:

@@ -1,8 +1,10 @@
 # 🕵️ Hallucination Detection
 
 ## 🔎 Overview
-Evaluating when an LLM is "lying" or factually incorrect.
-- **Why it matters**: Crucial for building reliable AI systems in fields like healthcare, legal, or finance.
+Build a system that detects and flags hallucinated content in LLM outputs using context-grounding and semantic consistency checks.
+
+- **Expected Output**: A pipeline that scores model outputs for factual drift with explanations.
+- **Why it Matters**: Unreliable AI is dangerous in finance, healthcare, and legal domains.
 
 ## 🛠️ Resources
 - **Evaluation Frameworks**:
